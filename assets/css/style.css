@@ -35,14 +35,13 @@ footer a{
 }
 
 #contenido{
-    border: 2px solid #FDCC00;
+    border: 2px solid #050505;
     padding: 10px;
     margin:auto;
 }
 
-#contenido img{
+#principal{
     margin-left: 5%;
-    margin-bottom: 5%;
 }
 
 #descripcion{
@@ -50,4 +49,34 @@ footer a{
     text-decoration: underline;
     font-weight: bold;
     margin: 10px;
+}
+
+#menu{
+    background-color: #fff;
+}
+
+#menu ul li{
+    display:block;
+    float: left;
+    border-right: 2px solid cornflowerblue;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444
+}
+
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+
+#menu ul li:hover a{
+    color: white;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
 }
