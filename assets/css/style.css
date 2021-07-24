@@ -70,7 +70,7 @@ footer a{
 #menu ul li{
     display:block;
     float: left;
-    border-right: 2px solid cornflowerblue;
+    border-right: 1px solid #eee;
 }
 
 #menu ul li a{
