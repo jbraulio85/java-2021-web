@@ -24,6 +24,16 @@ footer {
     line-height: 50px ;
 }
 
+p{
+    font-size: 18px;
+    color: #1c3886;
+}
+
+label{
+    display: block;
+    float: center;
+}
+
 a{
     font-size: 18px;
     color: #7D0A42;
@@ -44,7 +54,22 @@ footer a{
     margin: 10px;
 }
 
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #eee;
+    padding-left: 100px;
+    display: flow-root;
+}
 
+.formulario textarea:focus{
+    outline: 0;
+    border: 2px solid cornflowerblue;
+}
 
 #contenido{
     border: 3px solid #050505;
