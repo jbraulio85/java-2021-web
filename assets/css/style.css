@@ -34,8 +34,20 @@ footer a{
     color: azure;
 }
 
+#contenido table{
+    margin: auto;
+}
+
+.subtitulo{
+    text-align: center;
+    color: cornflowerblue;
+    margin: 10px;
+}
+
+
+
 #contenido{
-    border: 2px solid #050505;
+    border: 3px solid #050505;
     padding: 10px;
     margin:auto;
 }
@@ -74,6 +86,33 @@ footer a{
 
 #menu ul li:hover a{
     color: white;
+}
+
+#contenido form{
+    border: 2px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenido form *{
+    display: inline-block;
+}
+
+input[type="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+input[type="submit"], button{
+    background: #7D0A42;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid seagreen;
+    cursor: pointer;
 }
 
 .clearFix{
